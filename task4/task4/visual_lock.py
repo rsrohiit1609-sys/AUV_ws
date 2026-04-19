@@ -7,14 +7,12 @@ class VisualLockNode(Node):
     def __init__(self):
         super().__init__('visual_lock')
         
-        # Change this path to your actual video file
         video_path = '/home/rohiitrs/auv_ws/src/task4/data/test_video.mp4'
         self.cap = cv2.VideoCapture(video_path)
         
         # State Machine Variable
         self.state = "SEARCHING"
-        
-        # Timer for the main loop (30 FPS)
+
         self.timer = self.create_timer(0.033, self.process_frame)
         self.get_logger().info("Visual Lock Node Started")
 
