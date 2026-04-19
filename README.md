@@ -27,7 +27,7 @@ This repository contains the completed tasks for the AUV Software Subsystem, dem
 
 2. **Build the workspace:**
    ```bash
-   cd ..
+   cd .. auv_ws/src
    colcon build --packages-select <your_package_name>
    ```
 
