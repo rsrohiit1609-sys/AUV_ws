@@ -26,7 +26,7 @@ This repository contains the completed tasks for the AUV Software Subsystem, dem
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/rsrohiit1609-sys/AUV_ws.git
-   cd AUV_ws
+   cd auv_ws
    ```
 
 2. **Build the workspace:**
