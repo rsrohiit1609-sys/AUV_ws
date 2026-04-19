@@ -1,7 +1,11 @@
 
 # AUV Recruitment Tasks - ROS 2 & Computer Vision
 
+---
+
 This repository contains the completed tasks for the AUV Software Subsystem, demonstrating proficiency in ROS 2, Python, and OpenCV pipelines
+
+---
 
 ## Tasks Overview
 * **Task 1 (Comm-Link):** A ROS 2 Pub/Sub system for two-way chat.
